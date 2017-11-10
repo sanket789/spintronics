@@ -3,15 +3,11 @@
 clc
 clear 
 %%
-a = 10e-10;
-N = 100;
-zeeman_e = (100e-6)*(1.6e-19);
-
 t_i = 0;
 t_f = 10;
 t_step = 0.1;
 nT = (t_f - t_i)/t_step;
-v_dot = ga_as_dot(N,a);
+
 num_pair = nchoosek(size(v_dot,1),2);
 
 fid = zeros(nT+1,2);
