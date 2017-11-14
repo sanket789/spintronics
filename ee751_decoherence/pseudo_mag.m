@@ -4,7 +4,6 @@ A = v_const(1);
 B = v_const(2);
 D = v_const(3);
 E = v_const(4);
-f = 2*m_s;
-
-h_k = [f*2*A+2*B , 0 , D+f*E];
+sign = 2*m_s;
+h_k = [sign*2*A + 2*B , 0 , sign*E + D];
 end

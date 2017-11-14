@@ -5,7 +5,7 @@ Nx = floor(4*Lx/a);
 Ny = floor(4*Ly/a);
 Nz = floor(4*Lz/a);
 In = zeros((Nx+1)*(Ny+1)*(Nz+1),5);
-(Nx+1)*(Ny+1)*(Nz+1)
+%(Nx+1)*(Ny+1)*(Nz+1)
 k=0;
 a1 = (a/sqrt(2))*[0 1 1];
 a2 = (a/sqrt(2))*[1 0 1];
